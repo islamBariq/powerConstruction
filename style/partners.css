@@ -1,0 +1,114 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+    width: 127px;
+    height: 30px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #ff670f;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  .nav-link:hover {
+    color: #ff670f !important;
+  }
+  .nav-link:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #ff670f;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  .nav-link:hover:after {
+    transform: scaleX(1);
+  }
+  
+  
+
+#we {
+    width:185px;
+    height:139px;
+  }
+  
+  #huawei {
+    width:185px;
+    height:139px;
+  
+  }
+  #zte {
+    width: 117px;
+    height: 87px;
+    margin-top: 35px;
+  }
+    
+    #nokia {
+      width: 182px;
+      height: auto;
+      margin-top: 67px;
+  }
+  #afro {
+    width: 182px;
+    height: auto;
+    margin-top: 67px;
+  
+  }
+  #actel {
+    width: 182px;
+    height: auto;
+    margin-top: 103px;
+  
+  }
+  #ecotel {
+    width: 182px;
+    height: auto;
+    margin-top: 92px;
+  
+  }
+  #oper {
+    width: 182px;
+    height: auto;
+    margin-top: 114px;
+  
+  }
+  #applus {
+    width: 172px;
+    margin-top: 103px;
+}
+
+
+  #five {
+    width: 182px;
+    height: auto;
+    margin-top: 103px;
+
+
+  }
+
+  #multi {
+    width: 182px;
+    height: auto;
+    margin-top: 103px;
+
+
+  }
+  #apc {
+    width: 182px;
+    height: auto;
+    margin-top: 103px;
+
+
+  }
+
+  #gntech {
+    width: 182px;
+    height: auto;
+    margin-top: 103px;
+
+
+  }

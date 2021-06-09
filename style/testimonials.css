@@ -1,0 +1,53 @@
+.navbar-brand img {
+    width: 127px;
+    height: 30px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #ff670f;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  .nav-link:hover {
+    color: #ff670f !important;
+  }
+  .nav-link:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #ff670f;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  .card {
+      margin-bottom: 20px;
+      height:250px;
+  }
+  .nav-link:hover:after {
+    transform: scaleX(1);
+  }
+  .card-img, .card-img-top {
+    height: 91px;
+    width: 200px;
+}  nav {
+      margin-bottom: 30px;;
+  }
+  #telecom {
+margin-left: 30px;
+}
+
+  
+#oper {
+    width:149px;
+    margin-left:60px;
+    padding-top:10px;
+
+}
+.fixButton {
+    margin-top:8px
+}
+.OperfixButton {
+    margin-top:27px
+}
+
